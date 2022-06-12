@@ -1,0 +1,59 @@
+* {margin:0;}
+html {height:100%;}
+body {height:100%;}
+
+.download-section {
+  float: none;
+  margin: 0 auto;
+  padding: 60px 0 90px 20px;
+  text-align: center;
+}
+.download-section [class*='fui-'] {
+  margin: 3px 0 -3px;
+}
+.download {
+  background-color: #ebedef;
+  height: 190px;
+  margin: 0 auto 32px;
+  padding: 40px 28px 30px 32px;
+  text-align: center;
+  width: 190px;
+  border-radius: 50%;
+}
+.download img {
+  height: 104px;
+  width: 82px;
+}
+.download-text {
+  font-size: 15px;
+  padding: 20px 0;
+  text-align: center;
+}
+.altAlan, .itici {
+  height: 180px; /* .itici ile .altAlan aynı yükseklikte olmalıdır. */
+}
+.kapsayan {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -80px; /* alt margin altAlan'ın yüksekliğinin eksi değeri olmalıdır. */
+}
+.icerik {
+  padding: 0 0 30px;
+}
+
+.information {
+    width: 423px;
+    height: 129px;
+  background-color: #ebedef;
+    position: relative;
+    margin: auto;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.informationyazi {
+  position: relative;
+  left: 3px;
+  top: 2px;
+}
